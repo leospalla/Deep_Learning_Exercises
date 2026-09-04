@@ -12,49 +12,79 @@ The code and notebooks contained here were developed for **educational and study
 
 ---
 
-##  Course Topics
+## Courses
 
-The repository covers the exercises and topics addressed throughout the course, including:
+### Applied Deep Learning
 
-* [Topic / Exercise 1]
-* [Topic / Exercise 2]
-* [Topic / Exercise 3]
-* [Topic / Exercise 4]
-* [Topic / Exercise 5]
-* [Topic / Exercise 6]
-* [Topic / Exercise 7]
-* [Topic / Exercise 8]
-* [Topic / Exercise 9]
-* [Topic / Exercise 10]
-* [Topic / Exercise 11]
-* [Topic / Exercise 12]
-* [Topic / Exercise 13]
-* [Topic / Exercise 14]
-* [Topic / Exercise 15]
+[Go to the Applied Deep Learning section →](./Applied%20Deep%20Learning/)
 
-The structure will gradually evolve as new exercises and projects are added.
+The course covered the practical foundations of deep learning and its applications to physics, with topics including:
+
+- **Introduction to Machine Learning**
+  - Python Basics
+- **Machine Learning Basics**
+  - Classification
+  - Regression
+- **Building Blocks of Neural Networks**
+  - Linear Regression
+  - Neural Network fundamentals
+- **Optimization of Network Parameters**
+- **Mastering Model Building**
+  - Regularization
+  - Keras
+  - Hyperparameter Tuning
+  - Grid and Random Search
+- **Convolutional Neural Networks**
+  - Image Classification
+  - DenseNet
+  - U-Net
+  - Image Segmentation
+- **Recurrent Neural Networks**
+  - Time Series Forecasting
+  - Sequence Modelling
+- **Autoencoders**
+- **Fast and Low-Power Computing**
+- **Applications in Physics**
+  - Real-Time Noise Rejection
+  - Neutron-Gamma Discrimination
+
+More details, exercises, notebooks, and solutions are available in the [Applied Deep Learning](./Applied%20Deep%20Learning/) folder.
+
+### Advanced Deep Learning
+
+[Go to the Advanced Deep Learning section →](./Advanced%20Deep%20Learning/)
+
+This section is currently being developed and will contain the work from the **Advanced Deep Learning for Physics** course.
+
+Topics covered include:
+
+- **PyTorch Tutorial**
+- **Convolutional Neural Networks**
+- **CNN Uncertainty Prediction**
+- **Normalizing Flows and JAMMY Flows**
+- **Graph Neural Networks**
+- **Generative Models and GANs**
+- **Diffusion Models and Simple Diffusion**
+- **Transformers**
+
+More exercises, notebooks, and solutions will be added to this section.
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
+
+The repository is organized into two main sections, one for each course:
 
 ```text
 .
-├── [Exercise-01]/
-│   ├── README.md
-│   ├── notebooks/
-│   └── ...
+├── Applied Deep Learning/
+│   ├── data/
+│   └── README.md
 │
-├── [Exercise-02]/
-│   ├── README.md
-│   ├── notebooks/
-│   └── ...
+├── Advanced Deep Learning/
+│   ├── data/
+│   └── README.md
 │
-├── [Exercise-03]/
-│   └── ...
-│
-├── data/
-├── requirements.txt
 ├── LICENSE
 └── README.md
 ```
@@ -104,12 +134,6 @@ To clone the repository:
 ```bash
 git clone [REPOSITORY_URL]
 cd [REPOSITORY_NAME]
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
 
 Additional instructions for specific exercises or environments will be provided in their respective directories when necessary.
